@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "ekle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ekle</h2>
+
+
+<form action="ekle" method="post" enctype="multipart/form-data">
+    Ürün Adı:<input type="text" name="vurunad" /><br />
+    Resim :<input type="file" name="resim" id="resim" />
+    <input type="submit" value="Kaydet" />
+</form>
